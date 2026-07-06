@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CI/CD Demo Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🚀 CI/CD Pipeline Demo</h1>
+        <p>Deployed on AWS EC2 using Jenkins</p>
+    </header>
+
+    <section>
+        <h2>About Project</h2>
+        <p>This project shows how automation works in DevOps.</p>
+    </section>
+
+    <section>
+        <h2>Interactive Demo</h2>
+        <button onclick="deployMessage()">Run Deployment</button>
+        <p id="output"></p>
+    </section>
+
+    <footer>
+        <small>Made by Hitesh | College Project</small>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
